@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище AeroflotInfoModelContainer" CdmEntityContainer="AeroflotInfoEntities">
+    <EntitySetMapping Name="AirfloatFlightsInfoTables">
+      <EntityTypeMapping TypeName="AeroflotInfoModel.AirfloatFlightsInfoTable">
+        <MappingFragment StoreEntitySet="AirfloatFlightsInfoTable">
+          <ScalarProperty Name="FlightNumber" ColumnName="FlightNumber" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="DepartureTime" ColumnName="DepartureTime" />
+          <ScalarProperty Name="ArrivalTime" ColumnName="ArrivalTime" />
+          <ScalarProperty Name="AvailableSeatsCount" ColumnName="AvailableSeatsCount" />
+          <ScalarProperty Name="AircraftType" ColumnName="AircraftType" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

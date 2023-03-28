@@ -1,0 +1,27 @@
+﻿<Window x:Class="kapustinRPMBD.AddRecord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kapustinRPMBD"
+        mc:Ignorable="d"
+        Title="AddRecord" Height="800" Width="450">
+    <Grid>
+        <TextBox x:Name="FlightNumTB" Height="25" Width="150" Margin="0,0,0,700"/>
+        <TextBox x:Name="DestinationTB" Height="25" Width="150" Margin="0,0,0,600"/>
+        <TextBox x:Name="DepartureTimeTB" Height="25" Width="150" Margin="0,0,0,500"/>
+        <TextBox x:Name="ArrivalTimeTB" Height="25" Width="150" Margin="0,0,0,400"/>
+        <TextBox x:Name="AvailableSeatsCountTB" Height="25" Width="150" Margin="0,0,0,300"/>
+        <TextBox x:Name="AircraftTypeTB" Height="25" Width="150" Margin="0,0,0,200"/>
+        <TextBox x:Name="CapacityTB" Height="25" Width="150" Margin="0,0,0,100"/>
+        <Button x:Name="AddRecordBTN" Content="Добавить" Height="25" Width="70" Margin="0,0,90,0" Click="AddRecordBTN_Click"/>
+        <Button x:Name="CancelTB" Content="Отмена" Height="25" Width="70" Margin="0,0,-90,0" Click="CancelTB_Click"/>
+        <Label Content="Номер рейса" HorizontalAlignment="Left" Margin="185,4,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пункт назначения" HorizontalAlignment="Left" Margin="175,53,0,0" VerticalAlignment="Top"/>
+        <Label Content="Время отбытия" HorizontalAlignment="Center" Margin="0,105,0,0" VerticalAlignment="Top"/>
+        <Label Content="Время прибытия" HorizontalAlignment="Center" Margin="0,152,0,0" VerticalAlignment="Top"/>
+        <Label Content="Свободные места" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top"/>
+        <Label Content="Тип самолёта" HorizontalAlignment="Center" Margin="0,255,0,0" VerticalAlignment="Top"/>
+        <Label Content="Вместимость" HorizontalAlignment="Center" Margin="0,306,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
